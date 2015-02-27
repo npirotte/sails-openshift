@@ -45,6 +45,10 @@ module.exports = {
     prefix: 'sockets'
   },
 
+  grunt: {
+    _hookTimeout: 100000
+  }
+
   /***************************************************************************
    * Set the log level in production environment to "silent"                 *
    ***************************************************************************/
