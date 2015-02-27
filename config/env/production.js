@@ -37,7 +37,7 @@ module.exports = {
   },
 
   sockets: {
-    adapter: 'redis',
+    adapter: 'socket.io-redis',
     host: process.env.OPENSHIFT_REDIS_DB_HOST,
     port: process.env.OPENSHIFT_REDIS_DB_PORT,
     pass: process.env.OPENSHIFT_REDIS_DB_PASSWORD,
